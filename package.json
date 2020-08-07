@@ -1,0 +1,29 @@
+{
+  "name": "sworld",
+  "version": "1.0.0",
+  "description": "Gamified world-building",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hugh-Carstensen/sworld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hugh-Carstensen/sworld/issues"
+  },
+  "homepage": "https://github.com/Hugh-Carstensen/sworld#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
