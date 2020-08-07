@@ -1,0 +1,2 @@
+# sworld
+Gamified world-building
