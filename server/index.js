@@ -6,6 +6,8 @@ const App = require("express")();
 const Http = require("http").Server(App);
 const socketio = require("socket.io")(Http);
 
+
+// Example socket handling for some generic message protocol
 socketio.on('connection', socket => {
   socket.on('message', ({name, message}) => {
     socketio.emit('message', {name, message});
