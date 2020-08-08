@@ -5,6 +5,8 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import UserInterface from './components/UserInterface'
 import Map from './components/Map'
+import generatePoints from './helpers/generatePoints.js'
+import generateAdjagencyGraph from './helpers/delaunay.js'
 
 class App extends React.Component {
   constructor(props) {
