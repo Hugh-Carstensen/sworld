@@ -1,12 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import io from 'socket.io-client'
-import './App.css'
-import Header from './Header'
-import Footer from './Footer'
-import UserInterface from './UserInterface'
-import Map from './Map'
+import './stylesheets/App.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import UserInterface from './components/UserInterface'
+import Map from './components/Map'
 
 class App extends React.Component {
   constructor(props) {
