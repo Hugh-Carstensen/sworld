@@ -1,4 +1,6 @@
-//
+// delaunay.js
+// Created 08/07/2020: Benjamin Speno
+// generate a graph of adjacent points using delaunay triangles
 
 function generateAdjacencyGraph (points) {
     const delaunator = Delaunator.from(points);
